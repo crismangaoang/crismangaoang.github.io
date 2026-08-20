@@ -1,183 +1,697 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Crisanto Manahan Mangaoang — Senior IT Infrastructure & Microsoft 365 Specialist">
-  <title>Crisanto Mangaoang | Senior IT Infrastructure Specialist</title>
+  <meta name="description" content="Crisanto Mangaoang — Senior IT Infrastructure & Microsoft 365 Specialist with 27+ years of IT experience.">
+  <title>Crisanto Mangaoang | Senior IT Infrastructure & Microsoft 365 Specialist</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <nav class="nav container">
-      <a class="brand" href="#top"><span>CM</span> Crisanto Mangaoang</a>
-      <button class="menu-toggle" aria-label="Open menu">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">☾</button>
-      </div>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="#home" class="brand">
+      <span class="brand-mark">CM</span>
+      <strong>Crisanto Mangaoang</strong>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="theme-toggle">☾</button>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">SENIOR IT INFRASTRUCTURE • MICROSOFT 365 • CLOUD</div>
-          <h1>Building secure, reliable and scalable IT environments.</h1>
-          <p class="lead">
-            Senior IT Infrastructure & Microsoft 365 Specialist with 27+ years of experience
-            across the UAE, KSA and the Philippines.
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#contact">Let's Connect</a>
-            <a class="btn secondary" href="#projects">View Projects</a>
-          </div>
-          <div class="hero-stats">
-            <div><strong>27+</strong><span>Years IT Experience</span></div>
-            <div><strong>500+</strong><span>Retail Stores Supported</span></div>
-            <div><strong>Multi-site</strong><span>Enterprise Operations</span></div>
-          </div>
-        </div>
+<main>
 
-        <div class="hero-card">
-          <div class="avatar">CM</div>
-          <h2>Crisanto Manahan Mangaoang</h2>
-          <p>Senior IT Infrastructure & Microsoft 365 Specialist</p>
-          <div class="tag-list">
-            <span>Microsoft 365</span><span>Azure</span><span>Entra ID</span>
-            <span>Intune</span><span>Security</span><span>IT Operations</span>
-          </div>
-          <div class="availability">● Open to senior IT opportunities</div>
-        </div>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+      <p class="eyebrow">
+        SENIOR IT INFRASTRUCTURE • MICROSOFT 365 • CLOUD
+      </p>
+
+      <h1>
+        Building secure,
+        reliable and scalable
+        <span>IT environments.</span>
+      </h1>
+
+      <p class="hero-description">
+        Senior IT Infrastructure & Microsoft 365 Specialist with
+        <strong>27+ years of IT experience</strong> across enterprise
+        infrastructure, cloud, endpoint management, cybersecurity,
+        networking and IT operations.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          Let's Connect
+        </a>
+
+        <a href="#projects" class="btn btn-secondary">
+          View Projects
+        </a>
       </div>
-    </section>
 
-    <section id="about" class="section">
-      <div class="container two-col">
-        <div>
-          <div class="section-kicker">ABOUT ME</div>
-          <h2>Technology leadership with hands-on infrastructure expertise.</h2>
+      <div class="stats">
+
+        <div class="stat">
+          <strong>27+</strong>
+          <span>Years IT Experience</span>
         </div>
-        <div class="prose">
-          <p>
-            I lead and support enterprise IT operations across infrastructure, cloud,
-            identity, endpoint management, networking, cybersecurity and business applications.
-          </p>
-          <p>
-            My experience includes Microsoft 365, Azure, Microsoft Entra ID, Intune,
-            Autopilot, SCCM, Jira Service Management, automation, IT asset management,
-            vendor coordination and global end-user support.
-          </p>
-          <p>
-            I focus on practical solutions that improve reliability, security, user experience
-            and operational efficiency.
-          </p>
+
+        <div class="stat">
+          <strong>500+</strong>
+          <span>Retail Stores Supported</span>
         </div>
+
+        <div class="stat">
+          <strong>Multi-Site</strong>
+          <span>Enterprise Operations</span>
+        </div>
+
       </div>
-    </section>
+    </div>
 
-    <section id="skills" class="section muted">
-      <div class="container">
-        <div class="section-kicker">CORE EXPERTISE</div>
-        <h2>What I work with</h2>
-        <div class="skill-grid">
-          <article class="skill-card"><b>Microsoft 365</b><p>Exchange Online, Teams, SharePoint, OneDrive and administration.</p></article>
-          <article class="skill-card"><b>Azure & Entra ID</b><p>Identity, access control, cloud administration and security.</p></article>
-          <article class="skill-card"><b>Intune & Autopilot</b><p>Modern endpoint management, deployment and device compliance.</p></article>
-          <article class="skill-card"><b>Infrastructure</b><p>Windows Server, Active Directory, networking, VPN and firewalls.</p></article>
-          <article class="skill-card"><b>Security</b><p>Endpoint security, cybersecurity controls, policies and operational protection.</p></article>
-          <article class="skill-card"><b>ITSM & Automation</b><p>Jira Service Management, workflows, automation and ITIL practices.</p></article>
-          <article class="skill-card"><b>Business Systems</b><p>ERP, POS, CCTV, PABX, AV systems and technology deployments.</p></article>
-          <article class="skill-card"><b>IT Leadership</b><p>Vendor management, projects, service delivery and multi-site operations.</p></article>
-        </div>
+    <div class="profile-card">
+
+      <div class="profile-avatar">
+        CM
       </div>
-    </section>
 
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-kicker">CAREER</div>
-        <h2>Professional experience</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span class="dot"></span>
-            <div><small>Dubai, UAE</small><h3>Markets.com / BTCC Finance</h3>
-            <p>Lead IT infrastructure and operations supporting global users and business systems. Microsoft 365, Azure, Entra ID, Intune, SCCM, endpoint security, Jira Service Management automation, Lark migration, access controls, IT assets and vendors.</p></div>
-          </article>
-          <article class="timeline-item">
-            <span class="dot"></span>
-            <div><small>Dubai, UAE</small><h3>Shamal Holding LLC</h3>
-            <p>Managed enterprise IT operations covering servers, workstations, POS, network infrastructure, Microsoft 365, security systems, ERP, AV, CCTV, PABX and technology deployments.</p></div>
-          </article>
-          <article class="timeline-item">
-            <span class="dot"></span>
-            <div><small>UAE</small><h3>World Air Games UAE 2015</h3>
-            <p>Led IT planning and execution for event technology, network connectivity, POS, workstations and technical operations.</p></div>
-          </article>
-          <article class="timeline-item">
-            <span class="dot"></span>
-            <div><small>Philippines</small><h3>Robinsons Convenience Store Inc.</h3>
-            <p>Provided enterprise IT support for 500+ retail stores, including POS, servers, desktops, networking, antivirus, backups and disaster recovery. Supervised and mentored technical support staff.</p></div>
-          </article>
-          <article class="timeline-item">
-            <span class="dot"></span>
-            <div><small>Philippines</small><h3>JEA Steel Industries Inc. — IT Supervisor</h3>
-            <p>Managed daily IT operations, servers, ERP, Active Directory, network infrastructure, user support and preventive maintenance.</p></div>
-          </article>
-        </div>
+      <p class="availability">
+        ● Open to Senior IT Opportunities
+      </p>
+
+      <h2>
+        Crisanto Mangaoang
+      </h2>
+
+      <p>
+        Senior IT Infrastructure &
+        Microsoft 365 Specialist
+      </p>
+
+      <div class="chips">
+        <span>Microsoft 365</span>
+        <span>Azure</span>
+        <span>Entra ID</span>
+        <span>Intune</span>
+        <span>Cybersecurity</span>
+        <span>IT Operations</span>
       </div>
-    </section>
 
-    <section id="projects" class="section muted">
-      <div class="container">
-        <div class="section-kicker">SELECTED PROJECTS</div>
-        <h2>Projects that demonstrate practical impact</h2>
-        <div class="project-grid">
-          <article class="project-card"><div class="project-icon">M365</div><h3>Microsoft 365 & Cloud Transformation</h3><p>Administration and operational support across Microsoft 365, Exchange Online, Teams, SharePoint and OneDrive.</p><span>Cloud • Collaboration • Administration</span></article>
-          <article class="project-card"><div class="project-icon">ID</div><h3>Azure / Entra ID Identity Management</h3><p>Identity, access, device registration and security administration across enterprise environments.</p><span>Identity • Security • Access</span></article>
-          <article class="project-card"><div class="project-icon">INT</div><h3>Intune & Autopilot Deployment</h3><p>Modern endpoint enrollment, device management, compliance and deployment workflows.</p><span>Endpoint • MDM • Automation</span></article>
-          <article class="project-card"><div class="project-icon">JSM</div><h3>Jira Service Management Automation</h3><p>Service workflows and automation designed to improve support operations and reduce manual work.</p><span>ITSM • Automation • Service Desk</span></article>
-          <article class="project-card"><div class="project-icon">LARK</div><h3>Lark Collaboration Migration</h3><p>Supported organizational restructuring, onboarding and collaboration platform transition.</p><span>Migration • Collaboration • Change</span></article>
-          <article class="project-card"><div class="project-icon">NET</div><h3>Enterprise Network & Security</h3><p>Infrastructure, VPN, firewall, endpoint security and business continuity support across sites.</p><span>Network • Security • Infrastructure</span></article>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+  <div class="container two-column">
+
+    <div>
+      <p class="eyebrow">ABOUT ME</p>
+
+      <h2>
+        Technology leadership with
+        hands-on infrastructure expertise.
+      </h2>
+    </div>
+
+    <div class="content-text">
+
+      <p>
+        I am an experienced IT professional specializing in
+        infrastructure, Microsoft 365, cloud technologies,
+        endpoint management, identity and access management,
+        cybersecurity and enterprise IT operations.
+      </p>
+
+      <p>
+        My technical background includes Microsoft 365,
+        Azure, Microsoft Entra ID, Microsoft Intune,
+        Autopilot, Windows Server, Active Directory,
+        networking, endpoint security and IT service management.
+      </p>
+
+      <p>
+        I also have extensive experience supporting business
+        applications, IT assets, vendors, users and
+        multi-site environments while improving reliability,
+        security and operational efficiency.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERTISE -->
+<section id="skills" class="section section-dark">
+
+  <div class="container">
+
+    <p class="eyebrow">CORE EXPERTISE</p>
+
+    <h2>
+      Technical expertise
+    </h2>
+
+    <div class="skills-grid">
+
+      <article class="skill-card">
+        <span>01</span>
+        <h3>Microsoft 365</h3>
+        <p>
+          Exchange Online, Teams, SharePoint,
+          OneDrive and Microsoft 365 administration.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>02</span>
+        <h3>Azure & Entra ID</h3>
+        <p>
+          Identity, authentication, access management,
+          cloud administration and security.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>03</span>
+        <h3>Intune & Autopilot</h3>
+        <p>
+          Endpoint management, device enrollment,
+          deployment, compliance and automation.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>04</span>
+        <h3>Infrastructure</h3>
+        <p>
+          Windows Server, Active Directory, networking,
+          VPN, firewall and infrastructure support.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>05</span>
+        <h3>Cybersecurity</h3>
+        <p>
+          Endpoint protection, security controls,
+          policies and operational security.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>06</span>
+        <h3>ITSM & Automation</h3>
+        <p>
+          Jira Service Management, workflows,
+          automation and ITIL-based service delivery.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>07</span>
+        <h3>Business Systems</h3>
+        <p>
+          ERP, POS, CCTV, PABX, AV systems
+          and technology deployments.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span>08</span>
+        <h3>IT Operations</h3>
+        <p>
+          Vendor management, projects,
+          service delivery and multi-site support.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+
+  <div class="container">
+
+    <p class="eyebrow">CAREER</p>
+
+    <h2>
+      Professional experience
+    </h2>
+
+    <div class="timeline">
+
+      <article class="timeline-item">
+
+        <span class="timeline-date">
+          Dubai, UAE
+        </span>
+
+        <h3>
+          Markets.com / BTCC Finance
+        </h3>
+
+        <p>
+          Lead and support IT infrastructure and global
+          end-user operations covering Microsoft 365,
+          Azure, Entra ID, Intune, endpoint security,
+          Jira Service Management, automation, IT assets,
+          network infrastructure and vendor coordination.
+        </p>
+
+      </article>
+
+
+      <article class="timeline-item">
+
+        <span class="timeline-date">
+          Dubai, UAE
+        </span>
+
+        <h3>
+          Shamal Holding LLC
+        </h3>
+
+        <p>
+          Managed enterprise IT operations including
+          servers, workstations, POS, network infrastructure,
+          Microsoft 365, security systems, ERP, AV,
+          CCTV and technology deployments.
+        </p>
+
+      </article>
+
+
+      <article class="timeline-item">
+
+        <span class="timeline-date">
+          UAE
+        </span>
+
+        <h3>
+          World Air Games UAE 2015
+        </h3>
+
+        <p>
+          Supported IT planning and technical operations
+          covering network connectivity, workstations,
+          POS and event technology infrastructure.
+        </p>
+
+      </article>
+
+
+      <article class="timeline-item">
+
+        <span class="timeline-date">
+          Philippines
+        </span>
+
+        <h3>
+          Robinsons Convenience Store Inc.
+        </h3>
+
+        <p>
+          Provided enterprise IT support for more than
+          500 retail stores covering POS systems, servers,
+          desktops, networking, antivirus, backups and
+          disaster recovery. Supervised technical support
+          personnel.
+        </p>
+
+      </article>
+
+
+      <article class="timeline-item">
+
+        <span class="timeline-date">
+          Philippines
+        </span>
+
+        <h3>
+          JEA Steel Industries Inc.
+        </h3>
+
+        <p>
+          Managed daily IT operations including servers,
+          ERP, Active Directory, network infrastructure,
+          user support and preventive maintenance.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section section-dark">
+
+  <div class="container">
+
+    <p class="eyebrow">SELECTED PROJECTS</p>
+
+    <h2>
+      Projects & technology initiatives
+    </h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          M365
         </div>
+
+        <h3>
+          Microsoft 365 Administration
+        </h3>
+
+        <p>
+          Administration and operational support across
+          Microsoft 365, Exchange Online, Teams,
+          SharePoint and OneDrive.
+        </p>
+
+        <small>
+          Cloud • Collaboration • Administration
+        </small>
+
+      </article>
+
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          AZURE
+        </div>
+
+        <h3>
+          Azure & Entra ID
+        </h3>
+
+        <p>
+          Identity and access administration covering
+          authentication, device registration,
+          security and cloud services.
+        </p>
+
+        <small>
+          Identity • Cloud • Security
+        </small>
+
+      </article>
+
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          INTUNE
+        </div>
+
+        <h3>
+          Intune & Autopilot
+        </h3>
+
+        <p>
+          Modern endpoint management, device enrollment,
+          deployment, compliance and configuration.
+        </p>
+
+        <small>
+          Endpoint • MDM • Automation
+        </small>
+
+      </article>
+
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          JSM
+        </div>
+
+        <h3>
+          Jira Service Management
+        </h3>
+
+        <p>
+          Designed service workflows, forms and
+          automation to improve IT support operations
+          and reduce repetitive manual tasks.
+        </p>
+
+        <small>
+          ITSM • Automation • Service Desk
+        </small>
+
+      </article>
+
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          LARK
+        </div>
+
+        <h3>
+          Lark Migration
+        </h3>
+
+        <p>
+          Supported organizational restructuring,
+          onboarding, collaboration workflows and
+          transition from Microsoft Teams to Lark.
+        </p>
+
+        <small>
+          Migration • Collaboration • Change
+        </small>
+
+      </article>
+
+
+      <article class="project-card">
+
+        <div class="project-tag">
+          NETWORK
+        </div>
+
+        <h3>
+          Network & Security Infrastructure
+        </h3>
+
+        <p>
+          Supported VPN, firewall, network infrastructure,
+          endpoint protection and business continuity
+          requirements across office environments.
+        </p>
+
+        <small>
+          Network • Security • Infrastructure
+        </small>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ACHIEVEMENTS -->
+<section class="section">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      KEY ACHIEVEMENTS
+    </p>
+
+    <h2>
+      Delivering measurable IT value
+    </h2>
+
+    <div class="achievement-grid">
+
+      <div>
+        <strong>01</strong>
+        <p>
+          Supported enterprise IT environments across
+          multiple locations and business functions.
+        </p>
       </div>
-    </section>
 
-    <section class="section">
-      <div class="container achievements">
-        <div>
-          <div class="section-kicker">VALUE I BRING</div>
-          <h2>Reliable operations. Better service. Stronger security.</h2>
-        </div>
-        <div class="achievement-list">
-          <div><strong>01</strong><span>Managed multi-site IT environments supporting enterprise operations.</span></div>
-          <div><strong>02</strong><span>Improved incident resolution through automation and ITIL-based processes.</span></div>
-          <div><strong>03</strong><span>Delivered infrastructure upgrades, cloud projects and security improvements.</span></div>
-          <div><strong>04</strong><span>Supported large-scale retail IT operations across 500+ stores.</span></div>
-        </div>
+      <div>
+        <strong>02</strong>
+        <p>
+          Supported technology operations across
+          500+ retail stores.
+        </p>
       </div>
-    </section>
 
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card">
-        <div>
-          <div class="section-kicker">LET'S CONNECT</div>
-          <h2>Looking for an experienced IT infrastructure professional?</h2>
-          <p>For senior IT infrastructure, Microsoft 365, cloud, endpoint or IT operations opportunities, feel free to get in touch.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
-          <a class="btn secondary" href="https://github.com/crismangaoang" target="_blank" rel="noopener">GitHub</a>
-        </div>
+      <div>
+        <strong>03</strong>
+        <p>
+          Implemented ITSM workflows and automation
+          to improve service delivery.
+        </p>
       </div>
-    </section>
-  </main>
 
-  <footer><div class="container footer-inner"><span>© 2026 Crisanto Manahan Mangaoang</span><span>Senior IT Infrastructure & Microsoft 365 Specialist</span></div></footer>
-  <script src="script.js"></script>
+      <div>
+        <strong>04</strong>
+        <p>
+          Delivered cloud, endpoint, identity,
+          infrastructure and security initiatives.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+
+  <div class="container contact-card">
+
+    <div>
+
+      <p class="eyebrow">
+        LET'S CONNECT
+      </p>
+
+      <h2>
+        Looking for an experienced IT professional?
+      </h2>
+
+      <p>
+        For senior IT infrastructure, Microsoft 365,
+        cloud, endpoint management or IT operations
+        opportunities, feel free to get in touch.
+      </p>
+
+    </div>
+
+    <div class="contact-buttons">
+
+      <!-- PALITAN ANG EMAIL -->
+      <a
+        href="mailto:YOUR_EMAIL@example.com"
+        class="btn btn-primary">
+        Email Me
+      </a>
+
+      <a
+        href="https://github.com/crismangaoang"
+        target="_blank"
+        class="btn btn-secondary">
+        GitHub
+      </a>
+
+      <!-- PALITAN ANG LINKEDIN URL -->
+      <a
+        href="#"
+        target="_blank"
+        class="btn btn-secondary">
+        LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    © 2026 Crisanto Mangaoang
+    <span>•</span>
+    Senior IT Infrastructure & Microsoft 365 Specialist
+  </div>
+</footer>
+
+
+<script>
+
+const menuToggle =
+  document.getElementById("menuToggle");
+
+const navLinks =
+  document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+
+  navLinks.classList.toggle("mobile-open");
+
+});
+
+
+const themeToggle =
+  document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", () => {
+
+  document.body.classList.toggle("light-mode");
+
+  themeToggle.textContent =
+    document.body.classList.contains("light-mode")
+      ? "☀"
+      : "☾";
+
+});
+
+
+document.querySelectorAll("#navLinks a")
+.forEach(link => {
+
+  link.addEventListener("click", () => {
+
+    navLinks.classList.remove("mobile-open");
+
+  });
+
+});
+
+</script>
+
 </body>
 </html>
+```
